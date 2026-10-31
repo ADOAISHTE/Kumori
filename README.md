@@ -1,11 +1,36 @@
-# Kumori — plantilla Imperial
+# Kumori
 
-Página académica basada directamente en Imperial de BootstrapMade. Se conserva sin cambios assets/css/main.css, assets/js/main.js y las bibliotecas originales. Solo se adapta index.html: nombre, textos en español, navegación y secciones pertinentes a Kumori.
+Sitio web de presentación de Kumori, una propuesta de ERP intuitivo para organizar la gestión de una empresa.
 
-Se mantienen inicio, presentación, servicios, características, llamada a la acción y pie de página con sus clases originales. Se retiran portafolio, testimonios, personas y contacto ficticios de la demostración de Imperial. No se agregan funciones de ERP ni un diseño nuevo.
+## Ver el sitio
 
-Abrir index.html en el navegador. Las fuentes de Google necesitan conexión. Los scripts incluidos son los de la plantilla original.
+[Abre Kumori aquí](https://adoaishte.github.io/Kumori/).
 
-El diseño anterior está separado en ../Kumori y no se utiliza en esta versión. El original de Escritorio/Imperial no fue modificado.
+## Contenido
 
-Créditos y licencia: Readme-Imperial.txt y https://bootstrapmade.com/license/
+- Presentación de Kumori y su objetivo.
+- Módulos propuestos: ventas, inventario, finanzas, clientes, compras y reportes.
+- Características de la experiencia de uso.
+- Diseño adaptable a computadores, tablets y teléfonos.
+
+## Tecnologías
+
+HTML5, CSS3, Bootstrap y las bibliotecas incluidas en la plantilla.
+
+## Archivos
+
+- `index.html`: estructura y contenido de la página.
+- `assets/css/`: hojas de estilo.
+- `assets/js/`: scripts de la página.
+- `assets/img/`: imágenes.
+- `assets/vendor/`: bibliotecas y recursos.
+
+Para verlo localmente, descarga el repositorio y abre `index.html` en un navegador.
+
+## Alcance
+
+Proyecto académico de página web. Presenta el concepto de Kumori; no procesa operaciones ni almacena datos de empresas.
+
+## Créditos
+
+Basado en la plantilla Imperial de [BootstrapMade](https://bootstrapmade.com/). Consulta `Readme-Imperial.txt` para la referencia de licencia.
