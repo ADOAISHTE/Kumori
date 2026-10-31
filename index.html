@@ -1,543 +1,316 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>
-      Kumori — Tu negocio, en calma
-    </title>
-    <meta name="description" content="Conoce la propuesta de Kumori: un ERP pensado para simplificar la gestión de tu negocio.">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="kumori.css">
-    <!-- Adaptación de Imperial, BootstrapMade. Licencia y atribución en Readme-Imperial.txt. -->
-  </head>
-  <body>
-    <a class="skip-link" href="#contenido">
-      Saltar al contenido
-    </a>
-    <header>
-      <a class="brand" href="#inicio">
-        <span class="brand-icon">
-          ☁
-        </span>
-        kumori
-        <span class="brand-dot">
-          .
-        </span>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kumori | Un ERP intuitivo para tu negocio</title>
+  <meta name="description" content="Kumori es una propuesta de ERP intuitivo para organizar ventas, inventario y finanzas. Proyecto académico basado en Imperial.">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Imperial
+  * Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
+  * Updated: Oct 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo-2.png" alt=""> -->
+        <h1 class="sitename">Kumori</h1>
       </a>
-      <details class="site-menu" open>
-        <summary>
-          Menú de navegación
-        </summary>
-        <nav aria-label="Navegación principal">
-          <a href="#inicio">
-            Inicio
-          </a>
-          <a href="#propuesta">
-            Por qué Kumori
-          </a>
-          <a href="#modulos">
-            Módulos
-          </a>
-          <a href="#experiencia">
-            Experiencia
-          </a>
-          <a href="#demo">
-            Ejemplos
-          </a>
-        </nav>
-      </details>
-      <a class="button small" href="#demo">
-        Ver ejemplos
-        <span>
-          ↗
-        </span>
-      </a>
-    </header>
-    <main id="contenido">
-      <section class="hero wrap" id="inicio">
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span>
-            </span>
-            MENOS COMPLEJIDAD. MÁS CLARIDAD.
-          </p>
-          <h1>
-            Tu negocio,
-            <br>
-            en
-            <em>
-              calma.
-            </em>
-          </h1>
-          <p class="intro">
-            Gestionar tu empresa debería ser intuitivo.
-            <br>
-            Kumori propone una forma más simple de conectar tu operación y entender qué sigue.
-          </p>
-          <div class="actions">
-            <a class="button" href="#demo">
-              Conoce Kumori
-              <span>
-                ↗
-              </span>
-            </a>
-            <a class="text-link" href="#modulos">
-              Descubre la propuesta
-              <span>
-                ↓
-              </span>
-            </a>
-          </div>
-          <p class="quiet">
-            <i class="bi bi-check-circle">
-            </i>
-            Un ERP pensado para las personas.
-          </p>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Sobre Kumori</a></li>
+          <li><a href="#services">Módulos</a></li>
+          <li><a href="#features">Características</a></li>
+          <li><a href="#call-to-action">Conoce la propuesta</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" width="1920" height="1280" class="hero-bg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Kumori: gestión simple para tu negocio</h2>
+        <p>Un ERP pensado para <span class="typed" data-typed-items="organizar tus ventas,controlar tu inventario,entender tus finanzas"></span></p>
+        <div>
+          <a href="#about" class="cta-btn">Conoce Kumori</a>
+          <a href="#services" class="cta-btn2">Ver módulos</a>
         </div>
-        <div class="hero-visual">
-          <div class="orbit">
-          </div>
-          <div class="floating">
-            <span class="check">
-              ✓
-            </span>
-            <div>
-              Todo en su lugar
-              <small>
-                Una vista más clara de tu negocio
-              </small>
-            </div>
-          </div>
-          <div class="app-preview">
-            <div class="app-top">
-              <span class="mini-brand">
-                ☁ kumori.
-              </span>
-              <span class="sample">
-                VISTA ILUSTRATIVA
-              </span>
-              <span class="avatar">
-                CM
-              </span>
-            </div>
-            <div class="app-body">
-              <aside>
-                <span class="selected">
-                  <i class="bi bi-grid">
-                  </i>
-                </span>
-                <span>
-                  <i class="bi bi-bag">
-                  </i>
-                </span>
-                <span>
-                  <i class="bi bi-box">
-                  </i>
-                </span>
-                <span>
-                  <i class="bi bi-wallet2">
-                  </i>
-                </span>
-                <span>
-                  <i class="bi bi-people">
-                  </i>
-                </span>
-              </aside>
-              <div class="dashboard">
-                <div class="dashboard-heading">
-                  <div>
-                    <small>
-                      MIÉRCOLES, 14 DE OCTUBRE
-                    </small>
-                    <h3>
-                      Un buen día para crecer ☀
-                    </h3>
-                  </div>
-                  <span>
-                    •••
-                  </span>
-                </div>
-                <div class="metrics">
-                  <div>
-                    <small>
-                      Ventas del mes
-                    </small>
-                    <strong>
-                      $12.480.000
-                    </strong>
-                    <span>
-                      ↗ 12,8 % este mes
-                    </span>
-                  </div>
-                  <div>
-                    <small>
-                      Pedidos pendientes
-                    </small>
-                    <strong>
-                      24
-                    </strong>
-                    <span class="neutral">
-                      Tu equipo está al día
-                    </span>
-                  </div>
-                </div>
-                <div class="chart-card">
-                  <div class="chart-title">
-                    <b>
-                      Así va tu negocio
-                    </b>
-                    <small>
-                      Este mes ⌄
-                    </small>
-                  </div>
-                  <div class="chart">
-                    <div class="grid-lines">
-                    </div>
-                    <svg viewBox="0 0 400 135" role="img" aria-label="Gráfico ilustrativo de ventas crecientes">
-                      <defs>
-                        <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-                          <stop stop-color="#a8bda4" stop-opacity=".45"/>
-                          <stop offset="1" stop-color="#a8bda4" stop-opacity="0"/>
-                        </linearGradient>
-                      </defs>
-                      <path d="M0 112 C35 112 35 80 70 85 S115 115 145 75 S190 85 215 58 S255 80 285 45 S325 65 355 28 S380 40 400 12 L400 135 L0 135Z" fill="url(#fill)"/>
-                      <path d="M0 112 C35 112 35 80 70 85 S115 115 145 75 S190 85 215 58 S255 80 285 45 S325 65 355 28 S380 40 400 12" fill="none" stroke="#657e5e" stroke-width="3"/>
-                    </svg>
-                  </div>
-                  <div class="chart-labels">
-                    <span>
-                      01 oct
-                    </span>
-                    <span>
-                      07 oct
-                    </span>
-                    <span>
-                      14 oct
-                    </span>
-                    <span>
-                      21 oct
-                    </span>
-                    <span>
-                      28 oct
-                    </span>
-                  </div>
-                </div>
-                <div class="activity">
-                  <span class="activity-icon">
-                    <i class="bi bi-box-seam">
-                    </i>
-                  </span>
-                  <div>
-                    <b>
-                      Inventario actualizado
-                    </b>
-                    <small>
-                      Todos tus movimientos, conectados.
-                    </small>
-                  </div>
-                  <span class="activity-dot">
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <span class="visual-caption">
-            Diseñado para que todo tenga sentido.
-          </span>
-        </div>
-      </section>
-      <div class="principles wrap">
-        <span>
-          Menos pasos.
-          <br>
-          <b>
-            Más posibilidades.
-          </b>
-        </span>
-        <p>
-          <i class="bi bi-compass">
-          </i>
-          Fácil de recorrer
-        </p>
-        <p>
-          <i class="bi bi-intersect">
-          </i>
-          Una visión conectada
-        </p>
-        <p>
-          <i class="bi bi-sun">
-          </i>
-          Claridad en cada decisión
-        </p>
       </div>
-      <section class="section wrap" id="propuesta">
-        <div class="section-heading">
-          <p class="eyebrow">
-            UNA FORMA MÁS SIMPLE
-          </p>
-          <h2>
-            Que tu ERP se adapte a ti.
-            <br>
-            <em>
-              Y te ayude a avanzar.
-            </em>
-          </h2>
-          <p>
-            La propuesta de Kumori parte de una idea: la tecnología debe hacer más fácil tu trabajo de cada día.
-          </p>
-        </div>
-        <figure class="team-picture">
-          <img src="assets/img/about.jpg" alt="Personas reunidas con computadores y cuadernos para organizar el trabajo de un equipo" width="800" height="533" loading="lazy">
-          <figcaption>
-            Imagen ilustrativa: una gestión clara comienza con un equipo conectado. Fotografía incluida en la plantilla Imperial.
-          </figcaption>
-        </figure>
-        <div class="benefits">
-          <article>
-            <span>
-              01 /
-            </span>
-            <h3>
-              Encuentra lo que necesitas
-            </h3>
-            <p>
-              Una navegación clara, con nombres familiares y las tareas principales siempre a mano.
-            </p>
-          </article>
-          <article>
-            <span>
-              02 /
-            </span>
-            <h3>
-              Entiende lo que pasa
-            </h3>
-            <p>
-              Información organizada para reconocer pendientes y tener una visión de tu operación.
-            </p>
-          </article>
-          <article>
-            <span>
-              03 /
-            </span>
-            <h3>
-              Da el siguiente paso
-            </h3>
-            <p>
-              Flujos pensados para acompañarte, desde el primer registro hasta el cierre del día.
-            </p>
-          </article>
-        </div>
-      </section>
-      <section class="modules-section" id="modulos">
-        <div class="wrap">
-          <div class="section-heading">
-            <p class="eyebrow">
-              UN NEGOCIO, UNA VISIÓN
-            </p>
-            <h2>
-              Todo empieza a
-              <em>
-                conectar.
-              </em>
-            </h2>
-            <p>
-              Explora las áreas que contempla esta propuesta inicial.
-            </p>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Kumori</h2>
+        <p>Una propuesta de ERP que busca hacer más sencilla la gestión diaria.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about.jpg" width="800" height="533" class="img-fluid" loading="lazy" alt="Equipo reunido con computadores y cuadernos para organizar su trabajo">
           </div>
-          <div class="module-grid">
-            <article>
-              <i class="bi bi-bag">
-              </i>
-              <h3>
-                Ventas
-              </h3>
-              <p>
-                Clientes, pedidos y seguimiento comercial en un recorrido sencillo.
-              </p>
-            </article>
-            <article>
-              <i class="bi bi-box-seam">
-              </i>
-              <h3>
-                Inventario
-              </h3>
-              <p>
-                Productos, existencias y movimientos con información fácil de consultar.
-              </p>
-            </article>
-            <article>
-              <i class="bi bi-wallet2">
-              </i>
-              <h3>
-                Finanzas
-              </h3>
-              <p>
-                Ingresos, egresos y pendientes para entender mejor tus números.
-              </p>
-            </article>
-            <article>
-              <i class="bi bi-people">
-              </i>
-              <h3>
-                Equipo
-              </h3>
-              <p>
-                Una propuesta de trabajo compartido con responsabilidades claras.
-              </p>
-            </article>
+
+          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Tu empresa, organizada en un solo lugar</h3>
+            <p class="fst-italic">
+              Un ERP es un sistema que reúne las áreas de una empresa. Kumori propone que esa información sea fácil de encontrar, entender y utilizar.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Organizar clientes y pedidos para dar seguimiento a las ventas.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Consultar productos y existencias para planificar el trabajo.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Conocer los movimientos del negocio desde una navegación clara.</span></li>
+            </ul>
+            <a href="#services" class="read-more"><span>Explorar módulos</span><i class="bi bi-arrow-right"></i></a>
           </div>
-          <p class="concept-note">
-            Concepto de producto: los módulos y las pantallas muestran la experiencia propuesta.
-          </p>
+
         </div>
-      </section>
-      <section class="section wrap experience" id="experiencia">
-        <div>
-          <p class="eyebrow">
-            LA SIMPLICIDAD SE NOTA
-          </p>
-          <h2>
-            Menos esfuerzo para usarlo.
-            <br>
-            <em>
-              Más espacio para crecer.
-            </em>
-          </h2>
-        </div>
-        <div class="steps">
-          <p>
-            <span>
-              01
-            </span>
-            <b>
-              Una bienvenida que orienta
-            </b>
-            <small>
-              Entiende por dónde empezar y qué puedes hacer.
-            </small>
-          </p>
-          <p>
-            <span>
-              02
-            </span>
-            <b>
-              Una tarea a la vez
-            </b>
-            <small>
-              Pantallas enfocadas y acciones fáciles de reconocer.
-            </small>
-          </p>
-          <p>
-            <span>
-              03
-            </span>
-            <b>
-              Información cuando la necesitas
-            </b>
-            <small>
-              Contexto útil para avanzar con confianza.
-            </small>
-          </p>
-        </div>
-      </section>
-      <!-- Los ejemplos usan details y summary: funcionan sin JavaScript. -->
-      <section class="demo-section wrap" id="demo" aria-labelledby="demo-titulo">
-        <div>
-          <p class="eyebrow">
-            CONOCE LA PROPUESTA
-          </p>
-          <h2 id="demo-titulo">
-            Así de simple podría ser.
-          </h2>
-          <p>
-            Abre cada área para conocer ejemplos de la información que podría organizar Kumori.
-          </p>
-          <img class="workflow-image" src="assets/img/flujo-kumori.svg" alt="Flujo de gestión: registrar una venta, actualizar el inventario y revisar las finanzas" width="640" height="240" loading="lazy">
-          <p class="demo-note">
-            Ejemplos con datos ficticios. No se guardan ni envían datos.
-          </p>
-        </div>
-        <div class="examples">
-          <details open>
-            <summary>
-              Ventas: pedidos a la vista
-            </summary>
-            <div class="example-content">
-              <p>
-                Ejemplos de pedidos:
-              </p>
-              <ul>
-                <li>
-                  Casa Olivo: $248.000 — confirmado.
-                </li>
-                <li>
-                  Estudio Sur: $186.000 — pendiente.
-                </li>
-                <li>
-                  Taller Nube: $324.000 — confirmado.
-                </li>
-              </ul>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Módulos propuestos</h2>
+        <p>Áreas que contempla el concepto inicial de Kumori. No son funciones operativas en esta maqueta.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Ventas</a></h4>
+              <p class="description">Organizar pedidos y consultar su estado para acompañar cada venta.</p>
             </div>
-          </details>
-          <details>
-            <summary>
-              Inventario: productos en orden
-            </summary>
-            <div class="example-content">
-              <p>
-                Ejemplos de existencias:
-              </p>
-              <ul>
-                <li>
-                  Cuaderno A5: 128 unidades disponibles.
-                </li>
-                <li>
-                  Lámpara de escritorio: 8 unidades, stock bajo.
-                </li>
-                <li>
-                  Organizador modular: 64 unidades disponibles.
-                </li>
-              </ul>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Inventario</a></h4>
+              <p class="description">Reunir productos, existencias y movimientos en una vista fácil de consultar.</p>
             </div>
-          </details>
-          <details>
-            <summary>
-              Finanzas: movimientos claros
-            </summary>
-            <div class="example-content">
-              <p>
-                Ejemplos de movimientos:
-              </p>
-              <ul>
-                <li>
-                  Cobro de Casa Olivo: $248.000 recibido.
-                </li>
-                <li>
-                  Pago a Proveedor Norte: $96.000 pendiente.
-                </li>
-                <li>
-                  Cobro de Taller Nube: $324.000 recibido.
-                </li>
-              </ul>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Finanzas</a></h4>
+              <p class="description">Ordenar ingresos, egresos y pagos pendientes para entender los números.</p>
             </div>
-          </details>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Clientes</a></h4>
+              <p class="description">Mantener la información comercial de los clientes en un mismo lugar.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Compras</a></h4>
+              <p class="description">Dar seguimiento a proveedores y compras necesarias para la operación.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+            <div>
+              <h4 class="title"><a href="#features" class="stretched-link">Reportes</a></h4>
+              <p class="description">Presentar información resumida para reconocer pendientes y tomar decisiones.</p>
+            </div>
+          </div><!-- End Service Item -->
+
         </div>
-      </section>
-    </main>
-    <footer class="wrap">
-      <a class="brand" href="#inicio">
-        ☁ kumori.
-      </a>
-      <p>
-        Tu negocio, en calma.
-      </p>
-      <small>
-        Concepto web · Basado en
-        <a href="https://bootstrapmade.com/">
-          Imperial de BootstrapMade
-        </a>
-      </small>
-    </footer>
-  </body>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Una experiencia intuitiva</h2>
+        <p>Principios que guían la propuesta: claridad, orden y facilidad de uso.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-box orange">
+              <i class="bi bi-award"></i>
+              <h4>Navegación clara</h4>
+              <p>Nombres familiares y secciones visibles para encontrar cada área.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-box blue">
+              <i class="bi bi-patch-check"></i>
+              <h4>Información ordenada</h4>
+              <p>Contenido agrupado para entender qué sucede en el negocio.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-box green">
+              <i class="bi bi-sunrise"></i>
+              <h4>Diseño adaptable</h4>
+              <p>Una presentación que se adapta a computadores, tablets y teléfonos.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+          <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="feature-box red">
+              <i class="bi bi-shield-check"></i>
+              <h4>Tareas sencillas</h4>
+              <p>Una propuesta centrada en acompañar los pasos del trabajo diario.</p>
+            </div>
+          </div><!-- End Feature Borx-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" width="1920" height="726" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Comienza por conocer Kumori</h3>
+            <p>Este proyecto académico presenta la idea de un ERP intuitivo. Explora sus módulos y descubre cómo se busca simplificar la gestión de una empresa.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#services">Ver módulos</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+</main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-building icon"></i>
+          <div><h4>Kumori</h4><p>Propuesta de ERP intuitivo.</p><p>Proyecto académico de página web.</p></div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-grid icon"></i>
+          <div><h4>Módulos</h4><p>Ventas e inventario.</p><p>Finanzas, clientes y compras.</p></div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-info-circle icon"></i>
+          <div><h4>Alcance</h4><p>Maqueta informativa.</p><p>No registra ni envía datos.</p></div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>Explora</h4><p><a href="#about">Sobre Kumori</a></p><p><a href="#services">Módulos propuestos</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Kumori</span> <strong class="px-1 sitename">Kumori</strong> <span>Proyecto académico</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#hero" aria-label="Volver al inicio" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
